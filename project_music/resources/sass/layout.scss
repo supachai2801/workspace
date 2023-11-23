@@ -1,0 +1,102 @@
+:root {
+    --bs-btn-border-radius: 0rem;
+    --bs-btn-border-radius-sm: 0rem;
+    --bs-btn-border-radius-lg: 0rem;
+    --bs-btn-border-radius-xl: 0rem;
+    --bd-violet: rgb(196, 27, 90);
+    --bd-btn-hover-violet: rgb(197, 12, 141);
+    --bd-btn-disable-violet: rgb(245, 129, 210);
+    --mo-bg-opacity: 0.9;
+}
+
+.text-bg-dark {
+    background-color: rgba(18, 18, 18, var(--mo-bg-opacity, 1)) !important;
+}
+
+.btn {
+    --bs-btn-border-radius: 0rem;
+}
+
+.btn-warning {
+    --bs-btn-font-weight: 600;
+    --bs-btn-bg: var(--bd-violet);
+    --bs-btn-border-color: var(--bd-violet) !important;
+    --bs-btn-hover-bg: var(--bd-btn-hover-violet) !important;
+    --bs-btn-hover-border-color: var(--bd-btn-hover-violet) !important;
+    --bs-btn-color: white;
+    --bs-btn-hover-color: white;
+    --bs-btn-focus-shadow-rgb: 217, 164, 6;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: var(--bd-btn-hover-violet) !important;
+    --bs-btn-active-border-color: var(--bd-btn-hover-violet) !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: white;
+    --bs-btn-disabled-bg: var(--bd-btn-disable-violet) !important;
+    --bs-btn-disabled-border-color: var(--bd-btn-disable-violet) !important;
+}
+
+.btn-register-login {
+    font-size: 28px !important;
+}
+
+body.frontend {
+    background-image: url('/images/1bg.jpg');
+    background-position: center;
+
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+.text-hilight {
+    color: var(--bd-violet);
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+}
+.slick-prev:before {
+    content: '' !important;
+    background-image: url(/plugins/slick-slide/right-arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 90px;
+    height: 89px;
+    margin-top:-40px;
+    margin-left: -70px;
+    transform: rotate(180deg);
+}
+
+.slick-next:before {
+    content: '' !important;
+    background-image: url(/plugins/slick-slide/right-arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 90px;
+    height: 89px;
+    margin-top:-40px;
+    margin-left: 7px;
+}
+a {
+    color: var(--bd-violet);
+}
+// .btn-warning {
+//     --mo-btn-color: #000;
+//     --mo-btn-bg: #ca07d1;
+//     --mo-btn-border-color: #ca07d1;
+//     --mo-btn-hover-color: #000;
+//     --mo-btn-hover-bg: #ca07d1;
+//     --mo-btn-hover-border-color: #ca07d1;
+//     --mo-btn-focus-shadow-rgb: 217, 164, 6;
+//     --mo-btn-active-color: #000;
+//     --mo-btn-active-bg: #ca07d1;
+//     --mo-btn-active-border-color: #ca07d1;
+//     --mo-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+//     --mo-btn-disabled-color: #000;
+//     --mo-btn-disabled-bg: #ca07d1;
+//     --mo-btn-disabled-border-color: #ca07d1;
+//   }
