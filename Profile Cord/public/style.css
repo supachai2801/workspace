@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand',sans-serif;
+}
+
+body {
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url(/src/space.jpg);
+    background-size: cover;
+}
+
+.card{
+    position: absolute;
+    width: 480px;
+    color:#fff;
+    background: rgba(0, 0, 0, 0.43);
+    border-radius: 1rem;
+    padding: 1.3rem 1.5rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.2px);
+    -webkit-backdrop-filter: blur(8.2px);
+    border: 1px solid #ffffff20;
+}
+
+.card header{
+    cursor:all-scroll;
+    text-align: center;
+    user-select: none;
+    padding: 1.5rem;
+    border-bottom: 1px solid #ffffff20;
+}
+
+.card .profile-body{
+    padding: 1.5rem;
+    border-bottom: 1px solid #ffffff20;
+}
+
+.card .profile-body .logo{
+    text-align: center;
+}
+.card .profile-body .logo h4{
+    margin-top:15px;
+    font-size: 22px;
+}
+
+
+.card .profile-body .logo img{
+    max-width: 120px;
+}
+
+.card .profile-body a{
+    display: inline-block;
+    background-color: #282828;
+    color:#fff;
+    text-decoration: none;
+    padding:0.2rem 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 14px;
+}
+
+.card .profile-body h4{
+    margin:10px 0;
+}
+
+.card .profile-body ul{
+    margin-top:0;
+}
+
+.card footer{
+    display: flex;
+    justify-content: flex-end;
+    gap:10px;
+    margin-top:1rem;
+}
+
+.card footer button{
+    padding:0.5rem 1rem;
+    outline: none;
+    border:none ;
+    border-radius: 6px;
+    cursor:pointer;
+    font-weight: bold;
+    transition: all 1s ease;
+}
+
+.card footer button.resume{
+    background-color: #6D2AB4  ;
+    color: #B98FE5  ;
+}
+
+.card footer button.resume:hover, .card footer button.reset:hover{
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.card footer button.reset{
+    background-color: #a13333   ;
+    color: #d38282 ;
+}
+
